@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>A Simple Todo List</h2>
+        <div class="border">
+            <form id="form">
+                <label for="inputVal" id="inputLabel">
+                    <input type="text" placeholder="Enter the Items" id="inputText">
+                    <input type="submit" id="submit-btn">
+                </label>
+                <div class="items">
+                    <ul id="item-list">
+                    </ul>
+                </div>
+                <div id="total">Total Items: <span id="total-items"></span></div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
